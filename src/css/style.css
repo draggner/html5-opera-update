@@ -1,0 +1,168 @@
+.page_container{
+  width: 1920px;
+  height: 1080px;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+}
+
+  .container__header{
+    position: absolute;
+    width: 1920px;
+    height: 56.98px;
+    left: calc(50% - 1920px/2);
+    top: 0px;
+  }
+
+  .header__content-icons{
+    position: absolute;
+    width: 383.95px;
+    height: 36.19px;
+    left: 1494.45px;
+    top: 20.8px;
+  }
+    .content___social-icons {
+      position: absolute;
+      width: 141.31px;
+      height: 24.95px;
+      left: 242.64px;
+      top: 5.61px;
+    }
+      /* .social-icons_twitter{
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: 5.19px;
+        top: 0px;
+      }
+
+      .social-icons_twitch{
+        position: absolute;
+        width: 17px;
+        height: 24px;
+        left: calc(50% - 17px/2 - 17.67px);
+        top: 0px;
+      } */
+
+      .social-icons-discord {
+        position: absolute;
+        width: 18px;
+        height: 24px;
+        left: calc(50% - 18px/2 + 17.67px);
+        top: 0px;
+      }
+
+      .social-icons-youtube {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        left: calc(50% - 24px/2 + 52.99px);
+        top: 0px;
+      }
+
+    .header__content-icons > p {
+      position: absolute;
+      width: 174.22px;
+      height: 16px;
+      left: 51.99px;
+      top: 9.73px;
+      
+      font-family: 'Chakra Petch';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12.48px;
+      line-height: 19px;
+      /* or 150% */
+      
+      display: flex;
+      align-items: center;
+      letter-spacing: 0.208px;
+      
+      color: #FA1E4E;
+    }
+
+  .header__content-update{
+    position: absolute;
+    width: 154.39px;
+    height: 33.47px;
+    left: 199.3px;
+    top: calc(50% - 33.47px/2 + 8.58px);
+
+    border-left: 1.03125px solid rgba(255, 255, 255, 0.15);
+  }
+    .header__content-update > img {
+    
+      position: absolute;
+      width: 24.94px;
+      height: 14.55px;
+      left: 25.98px;
+      top: 8.74px;
+    }
+
+    .header__content-update > p {
+      position: absolute;
+      width: 103.67px;
+      height: 16px;
+      left: 50.92px;
+      top: 8.74px;
+
+      /* font-family: 'Chakra Petch'; */
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 19px;
+      /* or 150% */
+
+      display: flex;
+      align-items: center;
+
+      color: #29DA64;
+
+    }
+
+  .header__content-logo {
+    position: absolute;
+    width: 130px;
+    height: 33.27px;
+    left: 41.59px;
+    top: calc(50% - 33.27px/2 + 8.95px);
+  }
+
+  .header__content-logo > img {
+    position: absolute;
+    width: 129.96px;
+    height: 33.27px;
+    left: calc(50% - 129.96px/2);
+    top: calc(50% - 33.27px/2);
+  }
+
+  .page_container > span {
+    position: absolute;
+    width: 214.14px;
+    height: 22px;
+    left: 853.03px;
+    top: 2455.59px;
+
+    /* font-family: 'Chakra Petch'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.64px;
+    line-height: 25px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.208px;
+
+    color: #FA1E4E;
+  }
+  .container__background{
+    position: absolute;
+    width: 1920px;
+    height: 1080px;    
+    left: 0px;
+    top: 0px;
+  
+    z-index: -1 /* z-index: -1; SEM ISSO O FUNDO FICA ENGLOBANDO TUDO */;
+  }
