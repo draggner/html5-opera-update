@@ -11,4 +11,4 @@ Estado da aplicação: esta em andamento.
 ## Tecnologias
 
 - HTML5
-- CSS
+- CSS3
